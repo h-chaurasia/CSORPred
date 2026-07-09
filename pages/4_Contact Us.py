@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.set_page_config( page_title="CottonExpelOilYieldPred", initial_sidebar_state="expanded", layout="wide")
+st.set_page_config( page_title="CSORPred", initial_sidebar_state="expanded", layout="wide")
 col1, col2 = st.columns([1.5, 20])
 
 with col1:
     st.image("static/images/icarlogo.png", width=150)
 
 with col2:
-    st.markdown("<h1 style='text-align:center;'> CottonExpelOilYieldPred: A Machine Learning-Based Web Resource for Estimation of Cottonseed Oil Yield</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;'> CSORPred: A Machine Learning-Based Web Resource for Cottonseed Oil Recovery Prediction</h1>", unsafe_allow_html=True)
 
 
 st.markdown("---")
@@ -20,19 +20,20 @@ with col1_1:
         #colInCon_1, colInCon_2 = st.columns([1, 3])
         #with colInCon_1:
         #    pass
-            #st.image("static/images/Sneha_murmu.png")
+            
         #with colInCon_2:
         st.markdown('''<h4 style='text-align:center;'>Director</h4></br>  
                     <p style='text-align:center;'>ICAR-Central Institute for Research on Cotton Technology,</br>  
                     Mumbai, Maharashtra-400019, India.</br>  
-                    Contact mail: director-circot@icar.org.in</p>''', unsafe_allow_html=True)
+                    Contact mail: director-circot@icar.org.in</br>
+                    Website: https://circot.icar.gov.in</p>''', unsafe_allow_html=True)
 
 with col2_1:
      with st.container(border=True):
         #colInCon_1, colInCon_2 = st.columns([1, 3])
         #with colInCon_1:
         #    pass
-            #st.image("static/images/himanshu_pic.jpeg")
+            
         #with colInCon_2:
         st.markdown('''<h4 style='text-align:center;'>Head</h4>  
                     <p style='text-align:center;'>Chemical and Biochemical Processing Division</br>  
