@@ -4,14 +4,14 @@ import joblib
 import pandas as pd
 
 
-st.set_page_config( page_title="CottonExpelOilYieldPred", initial_sidebar_state="expanded", layout="wide")
+st.set_page_config( page_title="CSORPred", initial_sidebar_state="expanded", layout="wide")
 col1, col2 = st.columns([1.5, 20])
 
 with col1:
     st.image("static/images/icarlogo.png", width=150)
 
 with col2:
-    st.markdown("<h1 style='text-align:center;'> CottonExpelOilYieldPred: A Machine Learning-Based Web Resource for Estimation of Cottonseed Oil Yield</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;'> CSORPred: A Machine Learning-Based Web Resource for Cottonseed Oil Recovery Prediction</h1>", unsafe_allow_html=True)
 
 
 st.markdown("---")
