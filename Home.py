@@ -13,7 +13,7 @@ with col2:
 st.markdown("---")
 st.text("")
 
-st.header("Welcome to CottonExpelOilYieldPred")
+st.header("Welcome to CSORPred")
 st.markdown("""
 **CSORPred** focuses on developing an easy-to-use portal that helps estimate cottonseed oil yield based on key factors like the moisture content of the cottonseed, the type of expeller used, the screw speed and cake thickness. 
 
